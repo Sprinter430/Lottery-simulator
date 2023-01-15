@@ -37,7 +37,7 @@ while yourDraws != lottoDraws:
     print(lottoDraws)
     print ("Oops! You didn't win the lottery. It's a trial number",drawCounter,"\n")
     lottoDraws = lotto(howManyNumbers,numberOfDraws)
-    drawCounter+=1
+    drawCounter += 1
 print(lottoDraws)
 print("Wow! You won millions of dollars!, You won a lottery after",drawCounter,"trials.")
 
